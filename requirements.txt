@@ -1,0 +1,22 @@
+# Deep Research Agent - Dependencies
+# Python 3.12.10
+
+# Core AI Framework
+pydantic-ai>=0.0.14
+openai>=1.0.0
+
+# Frontend
+gradio>=4.0.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Search Engine (kostenlos, kein API Key nötig)
+ddgs>=7.0.0
+
+# Async Loop Stabilität
+nest_asyncio>=1.6.0
+
+# Web Scraping & Text Extraktion
+trafilatura>=1.6.0      # Haupttext-Extraktion aus Webseiten
+httpx>=0.27.0           # Moderner async HTTP Client
